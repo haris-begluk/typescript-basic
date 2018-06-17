@@ -1,15 +1,18 @@
 //Variable Declaration 
-//Kada deklarisemo varijablu sa var mozemo joj pristupiti bilo gdje, 
-//Dok kada deklarisemo varijablu sa let kljucnom rijeclju mozemo joj pristupiti, 
-//samo u bloku gdje je deklarisana.
-var number = 13; 
-let count = 2; 
+let a; 
+a = 1; 
+a = 'Neko'; 
+a = true; 
+let b: number; 
+let c: boolean; 
+let d: string; 
+let e:any; 
+let f: number[] = [1,2,3]; 
+let g:any [] = [1,true,'Name', false]; 
 
-function doSomething() {
-    for(var i=0; i<5; i ++ ){
-        console.log(i);
-    } 
-    console.log('Finaly'+ i ); 
 
-} 
-doSomething();
+const ColorRed = 0; 
+const ColorGreen = 1; 
+const ColorBlue = 1; 
+enum Color {Red = 0, Green = 1 , Blue = 2 }; 
+let backgroundColor = Color.Red;
