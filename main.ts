@@ -1,10 +1,10 @@
-let message = 'abc'; 
-message.endsWith('c'); 
+//Arrow Functions 
+let log = function(message){
+    console.log(message);
+} 
 
-let message2; 
-message2 = "abcd"; 
-let endsWithC = message2.endsWith('c'); 
-
-//Type Assertions 
-let endsWithD = (<string>message).endsWith('d'); 
-let alternativeWay = (message as string).endsWith('d');
+let doLog = (message) => {
+    console.log(message);
+}
+ 
+let doLog2 = () => console.log();
